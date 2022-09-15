@@ -51,6 +51,10 @@
 		371A7BBD1EF18B7F004176EC /* YapDatabaseViewLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 371A7BBB1EF18B7B004176EC /* YapDatabaseViewLocator.m */; };
 		371A7BBF1EF18B80004176EC /* YapDatabaseViewLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 371A7BBB1EF18B7B004176EC /* YapDatabaseViewLocator.m */; };
 		371A7BC01EF18B80004176EC /* YapDatabaseViewLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 371A7BBB1EF18B7B004176EC /* YapDatabaseViewLocator.m */; };
+		4E0FA82228D39AC600C393A3 /* YapDatabaseSPM.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FA82128D39ABC00C393A3 /* YapDatabaseSPM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E0FA82328D39AC700C393A3 /* YapDatabaseSPM.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FA82128D39ABC00C393A3 /* YapDatabaseSPM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E0FA82428D39AC800C393A3 /* YapDatabaseSPM.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FA82128D39ABC00C393A3 /* YapDatabaseSPM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E0FA82528D39AC800C393A3 /* YapDatabaseSPM.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FA82128D39ABC00C393A3 /* YapDatabaseSPM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65580CA61BF36A020055E65C /* yap_vfs_shim.h in Headers */ = {isa = PBXBuildFile; fileRef = 65580CA41BF36A020055E65C /* yap_vfs_shim.h */; };
 		65580CA81BF36AA20055E65C /* yap_vfs_shim.h in Headers */ = {isa = PBXBuildFile; fileRef = 65580CA41BF36A020055E65C /* yap_vfs_shim.h */; };
 		B93B30CB238966FC00710E07 /* YapDatabaseConnectionPool.h in Headers */ = {isa = PBXBuildFile; fileRef = B93B30C9238966FC00710E07 /* YapDatabaseConnectionPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -121,14 +125,14 @@
 		B93B313823898E7900710E07 /* YapDatabaseManualViewConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = B93B311A23898E7900710E07 /* YapDatabaseManualViewConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B93B313923898E7900710E07 /* YapDatabaseManualViewConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = B93B311A23898E7900710E07 /* YapDatabaseManualViewConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B93B313A23898E7900710E07 /* YapDatabaseManualViewConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = B93B311A23898E7900710E07 /* YapDatabaseManualViewConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC06EEB91EFC3F300002CB40 /* YapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF7C2AE1BCC8E610087ED39 /* YapDatabase.framework */; };
-		DC06EEBA1EFC3F300002CB40 /* YapDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCF7C2AE1BCC8E610087ED39 /* YapDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DC06EEC01EFC3F490002CB40 /* YapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF7C2BE1BCC8E870087ED39 /* YapDatabase.framework */; };
-		DC06EEC11EFC3F490002CB40 /* YapDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCF7C2BE1BCC8E870087ED39 /* YapDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DC06EEC91EFC3F890002CB40 /* YapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE760911D78ADEF009C83A0 /* YapDatabase.framework */; };
-		DC06EECA1EFC3F890002CB40 /* YapDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCE760911D78ADEF009C83A0 /* YapDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DC06EECF1EFC40290002CB40 /* YapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1E7D031D80C901000721B8 /* YapDatabase.framework */; };
-		DC06EED01EFC40290002CB40 /* YapDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC1E7D031D80C901000721B8 /* YapDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC06EEB91EFC3F300002CB40 /* YapDatabaseSPM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF7C2AE1BCC8E610087ED39 /* YapDatabaseSPM.framework */; };
+		DC06EEBA1EFC3F300002CB40 /* YapDatabaseSPM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCF7C2AE1BCC8E610087ED39 /* YapDatabaseSPM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC06EEC01EFC3F490002CB40 /* YapDatabaseSPM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF7C2BE1BCC8E870087ED39 /* YapDatabaseSPM.framework */; };
+		DC06EEC11EFC3F490002CB40 /* YapDatabaseSPM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCF7C2BE1BCC8E870087ED39 /* YapDatabaseSPM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC06EEC91EFC3F890002CB40 /* YapDatabaseSPM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE760911D78ADEF009C83A0 /* YapDatabaseSPM.framework */; };
+		DC06EECA1EFC3F890002CB40 /* YapDatabaseSPM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCE760911D78ADEF009C83A0 /* YapDatabaseSPM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC06EECF1EFC40290002CB40 /* YapDatabaseSPM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1E7D031D80C901000721B8 /* YapDatabaseSPM.framework */; };
+		DC06EED01EFC40290002CB40 /* YapDatabaseSPM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC1E7D031D80C901000721B8 /* YapDatabaseSPM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC1E7D101D80CC26000721B8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1E7D0F1D80CC26000721B8 /* libsqlite3.tbd */; };
 		DC302B0A1BE94F99009F8C4D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65216F1BCED5D100188E23 /* libsqlite3.tbd */; };
 		DC302B0B1BE94FDF009F8C4D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC302B081BE94F31009F8C4D /* libsqlite3.tbd */; };
@@ -1185,7 +1189,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DC06EEBA1EFC3F300002CB40 /* YapDatabase.framework in Embed Frameworks */,
+				DC06EEBA1EFC3F300002CB40 /* YapDatabaseSPM.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1196,7 +1200,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DC06EEC11EFC3F490002CB40 /* YapDatabase.framework in Embed Frameworks */,
+				DC06EEC11EFC3F490002CB40 /* YapDatabaseSPM.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1207,7 +1211,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DC06EECA1EFC3F890002CB40 /* YapDatabase.framework in Embed Frameworks */,
+				DC06EECA1EFC3F890002CB40 /* YapDatabaseSPM.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1240,7 +1244,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DC06EED01EFC40290002CB40 /* YapDatabase.framework in Embed Frameworks */,
+				DC06EED01EFC40290002CB40 /* YapDatabaseSPM.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1261,6 +1265,7 @@
 		371A7BB11EF18B2D004176EC /* YapDirtyDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YapDirtyDictionary.m; sourceTree = "<group>"; };
 		371A7BBA1EF18B7B004176EC /* YapDatabaseViewLocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YapDatabaseViewLocator.h; sourceTree = "<group>"; };
 		371A7BBB1EF18B7B004176EC /* YapDatabaseViewLocator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YapDatabaseViewLocator.m; sourceTree = "<group>"; };
+		4E0FA82128D39ABC00C393A3 /* YapDatabaseSPM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YapDatabaseSPM.h; sourceTree = "<group>"; };
 		65580CA41BF36A020055E65C /* yap_vfs_shim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yap_vfs_shim.h; sourceTree = "<group>"; };
 		B93B30C9238966FC00710E07 /* YapDatabaseConnectionPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YapDatabaseConnectionPool.h; sourceTree = "<group>"; };
 		B93B30CA238966FC00710E07 /* YapDatabaseConnectionPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YapDatabaseConnectionPool.m; sourceTree = "<group>"; };
@@ -1281,7 +1286,7 @@
 		B93B311923898E7900710E07 /* YapDatabaseManualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YapDatabaseManualView.h; sourceTree = "<group>"; };
 		B93B311A23898E7900710E07 /* YapDatabaseManualViewConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YapDatabaseManualViewConnection.h; sourceTree = "<group>"; };
 		DC06EEAE1EFC3C310002CB40 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/watchOS/CocoaLumberjack.framework; sourceTree = SOURCE_ROOT; };
-		DC1E7D031D80C901000721B8 /* YapDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YapDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1E7D031D80C901000721B8 /* YapDatabaseSPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YapDatabaseSPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1E7D0B1D80CBA3000721B8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Framework/watchOS/Info.plist; sourceTree = SOURCE_ROOT; };
 		DC1E7D0E1D80CBED000721B8 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Framework/watchOS/module.modulemap; sourceTree = SOURCE_ROOT; };
 		DC1E7D0F1D80CC26000721B8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
@@ -1573,7 +1578,7 @@
 		DCD8815D1BE94C9300317214 /* TestModuleMap-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestModuleMap-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDAF7371D81DC2A00C827C6 /* YapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YapReachability.h; sourceTree = "<group>"; };
 		DCDAF7381D81DC2A00C827C6 /* YapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YapReachability.m; sourceTree = "<group>"; };
-		DCE760911D78ADEF009C83A0 /* YapDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YapDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE760911D78ADEF009C83A0 /* YapDatabaseSPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YapDatabaseSPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE760991D78AEFE009C83A0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Framework/tvOS/Info.plist; sourceTree = SOURCE_ROOT; };
 		DCE760DF1D78B51F009C83A0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.2.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		DCE7616C1D78B899009C83A0 /* TestModuleMap-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestModuleMap-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1587,8 +1592,8 @@
 		DCE761931D78B948009C83A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Framework/TestModuleMap-tvOS/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 		DCE975211F6D7EAE00496D00 /* YapDatabaseConnectionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YapDatabaseConnectionConfig.m; sourceTree = "<group>"; };
 		DCE975221F6D7EAE00496D00 /* YapDatabaseConnectionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YapDatabaseConnectionConfig.h; sourceTree = "<group>"; };
-		DCF7C2AE1BCC8E610087ED39 /* YapDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YapDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCF7C2BE1BCC8E870087ED39 /* YapDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YapDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF7C2AE1BCC8E610087ED39 /* YapDatabaseSPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YapDatabaseSPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF7C2BE1BCC8E870087ED39 /* YapDatabaseSPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YapDatabaseSPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1604,7 +1609,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC06EECF1EFC40290002CB40 /* YapDatabase.framework in Frameworks */,
+				DC06EECF1EFC40290002CB40 /* YapDatabaseSPM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1612,7 +1617,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC06EEC01EFC3F490002CB40 /* YapDatabase.framework in Frameworks */,
+				DC06EEC01EFC3F490002CB40 /* YapDatabaseSPM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1620,7 +1625,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC06EEB91EFC3F300002CB40 /* YapDatabase.framework in Frameworks */,
+				DC06EEB91EFC3F300002CB40 /* YapDatabaseSPM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1636,7 +1641,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC06EEC91EFC3F890002CB40 /* YapDatabase.framework in Frameworks */,
+				DC06EEC91EFC3F890002CB40 /* YapDatabaseSPM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1792,6 +1797,7 @@
 				DC651FEB1BCEC77E00188E23 /* YapDatabaseTransaction.h */,
 				DC651FEC1BCEC77E00188E23 /* YapDatabaseTransaction.m */,
 				B93B30F12389675600710E07 /* YapDatabaseTypes.h */,
+				4E0FA82128D39ABC00C393A3 /* YapDatabaseSPM.h */,
 			);
 			path = YapDatabase;
 			sourceTree = "<group>";
@@ -2560,13 +2566,13 @@
 		DCF7C2AF1BCC8E610087ED39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCF7C2AE1BCC8E610087ED39 /* YapDatabase.framework */,
-				DCF7C2BE1BCC8E870087ED39 /* YapDatabase.framework */,
+				DCF7C2AE1BCC8E610087ED39 /* YapDatabaseSPM.framework */,
+				DCF7C2BE1BCC8E870087ED39 /* YapDatabaseSPM.framework */,
 				DCD881291BE93C1000317214 /* TestModuleMap-iOS.app */,
 				DCD8815D1BE94C9300317214 /* TestModuleMap-macOS.app */,
-				DCE760911D78ADEF009C83A0 /* YapDatabase.framework */,
+				DCE760911D78ADEF009C83A0 /* YapDatabaseSPM.framework */,
 				DCE7616C1D78B899009C83A0 /* TestModuleMap-tvOS.app */,
-				DC1E7D031D80C901000721B8 /* YapDatabase.framework */,
+				DC1E7D031D80C901000721B8 /* YapDatabaseSPM.framework */,
 				DC6266C91D80D3E000557968 /* TestModuleMap-watchOS.app */,
 				DC6266D51D80D3E000557968 /* TestModuleMap-watchOS Extension.appex */,
 			);
@@ -2734,6 +2740,7 @@
 				DC6266681D80D19A00557968 /* YapDatabaseFullTextSearchTransaction.h in Headers */,
 				DC6266811D80D20A00557968 /* YapDatabaseRTreeIndexConnection.h in Headers */,
 				DC6266311D80D0B400557968 /* YapWhitelistBlacklist.h in Headers */,
+				4E0FA82528D39AC800C393A3 /* YapDatabaseSPM.h in Headers */,
 				DCE9752A1F6D7EAE00496D00 /* YapDatabaseConnectionConfig.h in Headers */,
 				DC62668B1D80D23800557968 /* YapDatabaseSecondaryIndexPrivate.h in Headers */,
 				DCDAF7541D81DC6600C827C6 /* YapDatabaseActionManagerTransaction.h in Headers */,
@@ -2791,6 +2798,7 @@
 				DCE760BF1D78B111009C83A0 /* YapDatabaseConnectionState.h in Headers */,
 				DCE760F21D78B57F009C83A0 /* YDBCKChangeRecord.h in Headers */,
 				DCE7613E1D78B6E4009C83A0 /* YapDatabaseFilteredViewPrivate.h in Headers */,
+				4E0FA82428D39AC800C393A3 /* YapDatabaseSPM.h in Headers */,
 				DCAD7E2121C7E5FE00004CD3 /* YapDatabaseAtomic.h in Headers */,
 				DCE7614C1D78B723009C83A0 /* YapDatabaseHooksTransaction.h in Headers */,
 				DCE761141D78B612009C83A0 /* YapDatabaseViewOptions.h in Headers */,
@@ -2946,6 +2954,7 @@
 				DC6520CB1BCEC77E00188E23 /* YapDatabaseSecondaryIndexSetup.h in Headers */,
 				DC6521611BCEC77E00188E23 /* YapDatabaseTransaction.h in Headers */,
 				DC6520B51BCEC77E00188E23 /* YapDatabaseSearchResultsViewTransaction.h in Headers */,
+				4E0FA82328D39AC700C393A3 /* YapDatabaseSPM.h in Headers */,
 				DC6C28E81CAAFE3B00166CE4 /* YapDatabaseActionManagerPrivate.h in Headers */,
 				DCAD7E1F21C7E5FE00004CD3 /* YapDatabaseAtomic.h in Headers */,
 				DC65214D1BCEC77E00188E23 /* YapSet.h in Headers */,
@@ -3101,6 +3110,7 @@
 				DC6520CC1BCEC77E00188E23 /* YapDatabaseSecondaryIndexSetup.h in Headers */,
 				DC6521621BCEC77E00188E23 /* YapDatabaseTransaction.h in Headers */,
 				DC6520B61BCEC77E00188E23 /* YapDatabaseSearchResultsViewTransaction.h in Headers */,
+				4E0FA82228D39AC600C393A3 /* YapDatabaseSPM.h in Headers */,
 				DC6C28E91CAAFE3B00166CE4 /* YapDatabaseActionManagerPrivate.h in Headers */,
 				DCAD7E2021C7E5FE00004CD3 /* YapDatabaseAtomic.h in Headers */,
 				DC65214E1BCEC77E00188E23 /* YapSet.h in Headers */,
@@ -3232,7 +3242,7 @@
 			);
 			name = "YapDatabase-watchOS";
 			productName = "YapDatabase-watchOS";
-			productReference = DC1E7D031D80C901000721B8 /* YapDatabase.framework */;
+			productReference = DC1E7D031D80C901000721B8 /* YapDatabaseSPM.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DC6266C81D80D3E000557968 /* TestModuleMap-watchOS */ = {
@@ -3326,7 +3336,7 @@
 			);
 			name = "YapDatabase-tvOS";
 			productName = "YapDatabase-tvOS";
-			productReference = DCE760911D78ADEF009C83A0 /* YapDatabase.framework */;
+			productReference = DCE760911D78ADEF009C83A0 /* YapDatabaseSPM.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DCE7616B1D78B899009C83A0 /* TestModuleMap-tvOS */ = {
@@ -3363,7 +3373,7 @@
 			);
 			name = "YapDatabase-macOS";
 			productName = YapDatabase;
-			productReference = DCF7C2AE1BCC8E610087ED39 /* YapDatabase.framework */;
+			productReference = DCF7C2AE1BCC8E610087ED39 /* YapDatabaseSPM.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DCF7C2BD1BCC8E870087ED39 /* YapDatabase-iOS */ = {
@@ -3381,7 +3391,7 @@
 			);
 			name = "YapDatabase-iOS";
 			productName = "YapDatabase-iOS";
-			productReference = DCF7C2BE1BCC8E870087ED39 /* YapDatabase.framework */;
+			productReference = DCF7C2BE1BCC8E870087ED39 /* YapDatabaseSPM.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -4193,7 +4203,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Framework/watchOS/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.YapDatabase;
-				PRODUCT_NAME = YapDatabase;
+				PRODUCT_NAME = YapDatabaseSPM;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -4217,7 +4227,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Framework/watchOS/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.YapDatabase;
-				PRODUCT_NAME = YapDatabase;
+				PRODUCT_NAME = YapDatabaseSPM;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -4372,7 +4382,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Framework/tvOS/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.YapDatabase;
-				PRODUCT_NAME = YapDatabase;
+				PRODUCT_NAME = YapDatabaseSPM;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -4395,7 +4405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Framework/tvOS/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.YapDatabase;
-				PRODUCT_NAME = YapDatabase;
+				PRODUCT_NAME = YapDatabaseSPM;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -4567,7 +4577,7 @@
 					CloudKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.YapDatabase;
-				PRODUCT_NAME = YapDatabase;
+				PRODUCT_NAME = YapDatabaseSPM;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -4593,7 +4603,7 @@
 					CloudKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.YapDatabase;
-				PRODUCT_NAME = YapDatabase;
+				PRODUCT_NAME = YapDatabaseSPM;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -4614,7 +4624,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Framework/iOS/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.YapDatabase;
-				PRODUCT_NAME = YapDatabase;
+				PRODUCT_NAME = YapDatabaseSPM;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4637,7 +4647,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Framework/iOS/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.YapDatabase;
-				PRODUCT_NAME = YapDatabase;
+				PRODUCT_NAME = YapDatabaseSPM;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

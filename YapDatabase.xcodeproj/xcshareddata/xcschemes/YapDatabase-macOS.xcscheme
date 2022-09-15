@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DCF7C2AD1BCC8E610087ED39"
-               BuildableName = "YapDatabase.framework"
+               BuildableName = "YapDatabaseSPM.framework"
                BlueprintName = "YapDatabase-macOS"
                ReferencedContainer = "container:YapDatabase.xcodeproj">
             </BuildableReference>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -46,13 +44,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DCF7C2AD1BCC8E610087ED39"
-            BuildableName = "YapDatabase.framework"
+            BuildableName = "YapDatabaseSPM.framework"
             BlueprintName = "YapDatabase-macOS"
             ReferencedContainer = "container:YapDatabase.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -64,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DCF7C2AD1BCC8E610087ED39"
-            BuildableName = "YapDatabase.framework"
+            BuildableName = "YapDatabaseSPM.framework"
             BlueprintName = "YapDatabase-macOS"
             ReferencedContainer = "container:YapDatabase.xcodeproj">
          </BuildableReference>

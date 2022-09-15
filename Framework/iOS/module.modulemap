@@ -1,5 +1,6 @@
-framework module YapDatabase {
+framework module YapDatabaseSPM {
 	
+    header "YapDatabaseSPM.h"
 	header "YapDatabase.h"
 	header "YapDatabaseConnection.h"
 	header "YapDatabaseTransaction.h"
