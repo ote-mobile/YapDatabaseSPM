@@ -2,8 +2,8 @@
 
 set -e
 
-readonly XCODEBUILD_RELEASEOPTIONS="-project YapDatabase.xcodeproj -target YapDatabase-iOS -configuration Release BITCODE_GENERATION_MODE=bitcode BUILD_LIBRARY_FOR_DISTRIBUTION=YES"
-readonly XCODEBUILD_DEBUGOPTIONS="-project YapDatabase.xcodeproj -target YapDatabase-iOS -configuration Debug BITCODE_GENERATION_MODE=bitcode BUILD_LIBRARY_FOR_DISTRIBUTION=YES"
+readonly XCODEBUILD_RELEASEOPTIONS="-project YapDatabase.xcodeproj -target YapDatabase-iOS -configuration Release ENABLE_BITCODE=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES"
+readonly XCODEBUILD_DEBUGOPTIONS="-project YapDatabase.xcodeproj -target YapDatabase-iOS -configuration Debug ENABLE_BITCODE=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES"
 
 function clean () {
 	rm -rf build
